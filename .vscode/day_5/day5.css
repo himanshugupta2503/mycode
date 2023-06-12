@@ -1,0 +1,31 @@
+body{
+    color:cadetblue;
+    background-color:darkgrey;
+    font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* class selector */
+.first{
+    color:black;
+}
+.large{
+    font-size: 30px;
+}
+/*Class selector*/
+#eklist
+{
+    background-color: lavender;
+}
+/* Attribute Selector*/
+a[href="https://google.com"]
+{
+    color:bisque;
+
+}
+/*Pseudo Selector*/
+.first:hover{
+    color:aqua;
+}
+/* Universal selector*/
+*{
+    margin: 10%;
+}
